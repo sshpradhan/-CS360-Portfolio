@@ -1,0 +1,147 @@
+/* 
+    Created on : Feb 3, 2024, 9:50:31 AM
+    Author     : shreeyapradhan
+*/
+
+body {
+    background-color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #38444d;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+}
+
+a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/*Body part for index.html*/
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+/*signinform*/
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+
+.signin_img{
+    width: 100%;
+}    
+
+form {
+    size: 30px;
+}
+
+/* Center form on text */
+.text-block {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.6;
+}
+
+.left-text-block {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.6;
+}
+.right-text-block {
+    position: absolute;
+    top: 20%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    background-color: salmon;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.6;
+}
+.lbottom-text-block {
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: lightseagreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.6;
+}
+.rbottom-text-block {
+    position: absolute;
+    bottom: 30%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.6;
+}
+
+
+/* 200 words at the bottom*/
+.words {
+    position: absolute;
+    top: 60%;
+    bottom: 0px;
+    left: 0;
+    background-color: white;
+    opacity: 0.6;
+}
